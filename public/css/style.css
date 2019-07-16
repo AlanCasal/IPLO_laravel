@@ -1,0 +1,29 @@
+article p {
+    text-indent: 1em ;
+}
+
+span.romano {
+    font-family: "Times New Roman", Times, serif ;
+}
+
+.advertencia {
+    color: #ff2621 ;
+}
+nav, .post-heading, .site-heading {
+    text-shadow: 2px 2px 5px black ;
+}
+
+.iralinicio {
+    color: #212529;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.iralinicio:focus, .iralinicio:hover {
+    color: #0085A1;
+}
+
+/*
+nav {
+    text-shadow: 1px 1px 3px black ;
+}*/
