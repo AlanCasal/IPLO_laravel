@@ -1,4 +1,4 @@
-<footer class="page-footer font-small cyan darken-3">
+{{--<footer class="page-footer font-small cyan darken-3">--}}
 
 	{{--<div class="container d-flex justify-content-center"> <!-- Container -->--}}
 		{{--<div class="row">--}}
@@ -32,13 +32,15 @@
 	<!-- Copyright -->
 
 
-		<div class="offset-5">
-			<a class="twitter-follow-button" data-show-count='false' href="https://twitter.com/Lionar_St">Follow @TwitterDev</a>
-			<br>
-			<div class="fb-like" data-href="https://www.facebook.com/LagrimasBajoTierra/" data-width="" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+		<div class="container">
+			<div class="d-flex justify-content-center">
+				<a class="twitter-follow-button" data-show-count='false' href="https://twitter.com/Lionar_St">Follow @TwitterDev</a>
+			</div>
+			<div class="d-flex justify-content-center">
+				<div class="fb-like" data-href="https://www.facebook.com/LagrimasBajoTierra/" data-width="" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+			</div>
 		</div>
 	<!-- Copyright -->
-
-
-</footer>
+		<p class="text-center nunito" style="font-size: .7em">Copyright © 2019</p>
+{{--</footer>--}}
 <!-- Footer -->
