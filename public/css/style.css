@@ -1,3 +1,7 @@
+body {
+    background: url(../img/pattern.png) repeat center center fixed;
+}
+
 article p {
     text-indent: 1em ;
 }
