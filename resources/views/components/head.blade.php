@@ -26,6 +26,9 @@
 
     {{-- Custom styles --}}
     <link href="{{ asset('css/style.css') }}" rel="stylesheet" type="text/css" media="screen" />
+    {{-- <link rel="dns-prefetch" href="//fonts.gstatic.com"> --}}
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
 
     <title>Lágrimas Bajo Tierra I - Iluminados por la Oscuridad</title>
 </head>

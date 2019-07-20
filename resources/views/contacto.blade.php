@@ -20,7 +20,7 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-            <p>¿Querés ponerte en contacto conmigo? Llená el siguiente formulario y enviame un mensaje. Me pondré en contacto a la brevedad.</p>
+            <p class="nunito">¿Querés ponerte en contacto conmigo para que te envíe los demás capitulos, dejar un saludo o bien amenazarme de muerte? Podés enviarme un mensaje privado a través de mi página en facebook, instragram, twitter o bien podés llenar el siguiente formulario y dejarme un mensaje, y te responderé a la mayor brevedad posible.</p>
             {{--
             Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work.
             WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address!

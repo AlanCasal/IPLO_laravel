@@ -11,7 +11,7 @@
                 <div class="post-heading">
                     <center>
                         <div>
-                            <img class="rounded-circle border border-light" src="{{ asset('img/charly.jpg') }}" style="width: 30%" alt="">
+                            <img class="rounded-circle border border-light" src="{{ asset('img/lionar.jpeg') }}" style="width: 30%" alt="">
                         </div>
                     </center>
                     <br/>
@@ -25,7 +25,7 @@
 <article>
     <div class="container">
         <div class="row">
-            <div class="col-lg-8 col-md-10 mx-auto indend">
+            <div class="col-lg-8 col-md-10 mx-auto indend nunito">
                 <p>Es difícil resumir una historia en pocas palabras, aunque más difícil resulta hablar de uno mismo.</p>
                 <p>Simplemente te diré que la escritura es mi pasión, una carrera que vengo siguiendo con esta historia por poco más de nueve años.</p>
                 <p>Al principio no era más que un adolescente descubriendo su camino, con baldozas conformadas por mis propias palabras componiendo textos incomprensibles, verbos mal conjugados e incluso algún que otro término inventado que atentaba contra toda integridad intelectual.</p>

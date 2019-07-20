@@ -6,11 +6,15 @@
 </head>
 
 <body>
+	@include('components.scripts-social')
+
     @include('components.navbar')
 
 	@yield('content')
 
-    @include('components.scripts')
+	@include('components.footer')
+
+	@include('components.scripts')
 </body>
 
 </html>
