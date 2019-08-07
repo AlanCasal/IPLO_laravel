@@ -3,6 +3,7 @@
 
 <head>
 	@include('components.head')
+	<title>Lágrimas Bajo Tierra I - Iluminados por la Oscuridad</title>
 </head>
 
 <body>

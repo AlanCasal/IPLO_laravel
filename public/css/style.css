@@ -1,3 +1,16 @@
+/************************* Parallax *********************************/
+
+#header {
+    /*min-height: 50vh;*/
+    /*position: relative;*/
+    /*background-color: unset;*/
+    background-image: url('../img/header.jpg');
+    /*background-position: center 0;*/
+    /*background-size: cover;*/
+}
+
+/**********************************************************/
+
 body {
     background: url(../img/pattern.png) repeat center center fixed;
 }
@@ -32,6 +45,7 @@ nav {
     text-shadow: 1px 1px 3px black ;
 }*/
 
-.nunito {
+.nunito, .leer, .card {
     font-family: 'Nunito', sans-serif;
 }
+

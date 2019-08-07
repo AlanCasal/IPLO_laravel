@@ -1,46 +1,97 @@
-{{--<footer class="page-footer font-small cyan darken-3">--}}
+<footer class="page-footer font-small cyan darken-3">
+	<div class="container">
 
-	{{--<div class="container d-flex justify-content-center"> <!-- Container -->--}}
-		{{--<div class="row">--}}
+		<div class="d-none d-lg-block"> {{-- se muestra en pantallas lg+ --}}
+			<div class="d-flex justify-content-around align-items-center">
+				<div class="">
+					<a href="https://www.wattpad.com/user/LionarStormrage" target="_blank" style="text-decoration: none"
+					   class="nunito font-weight-bold">
+						<img src="{{ asset('img/wattpad2.png') }}" alt="wattpad" style="width: 6em;"> LionarStormrage
+					</a>
+					<br>
+					<a class="twitter-follow-button" data-show-count='false' href="https://twitter.com/Lionar_St">Seguir
+						@Lionar_St</a>
+					<div class="">
+					</div>
+					<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FLagrimasBajoTierra%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId=2320686861534804"
+					        style="border:none; overflow:hidden; width:100%; height:100px;"
+					        scrolling="no"
+					        frameborder="0"
+					        allowTransparency="true"
+					        allow="encrypted-media"
+					>
+					</iframe>
+				</div>
 
-			{{--<div class="col-md-12 py-5"> <!-- Grid column -->--}}
-				{{--<div class="mb-5 flex-center">--}}
-
-					{{--<a class="fb-ic">--}}
-						{{--<i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>--}}
-					{{--</a>--}}
-					{{--<a class="tw-ic">--}}
-						{{--<i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>--}}
-					{{--</a>--}}
-					{{--<a class="gplus-ic">--}}
-						{{--<i class="fab fa-google-plus-g fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>--}}
-					{{--</a>--}}
-					{{--<a class="li-ic">--}}
-						{{--<i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>--}}
-					{{--</a>--}}
-					{{--<a class="ins-ic">--}}
-						{{--<i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>--}}
-					{{--</a>--}}
-					{{--<a class="pin-ic">--}}
-						{{--<i class="fab fa-pinterest fa-lg white-text fa-2x"> </i>--}}
-					{{--</a>--}}
-				{{--</div>--}}
-			{{--</div> <!-- Grid column -->--}}
-		{{--</div> <!-- Grid row-->--}}
-	{{--</div> <!-- Container -->--}}
-
-	<!-- Copyright -->
-
-
-		<div class="container">
-			<div class="d-flex justify-content-center">
-				<a class="twitter-follow-button" data-show-count='false' href="https://twitter.com/Lionar_St">Follow @TwitterDev</a>
-			</div>
-			<div class="d-flex justify-content-center">
-				<div class="fb-like" data-href="https://www.facebook.com/LagrimasBajoTierra/" data-width="" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+				<div class="ml-auto">
+					<a href="https://twitter.com/Lionar_St" target="_blank">
+                    <span class="fa-stack fa-sm" style="font-size: 1.5em">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                    </span>
+					</a>
+					<a href="https://www.facebook.com/L%C3%A1grimas-Bajo-Tierra-I-Iluminados-Por-La-Oscuridad-258476418344566/"
+					   target="_blank">
+                    <span class="fa-stack fa-sm" style="font-size: 1.5em">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                    </span>
+					</a>
+					<a href="https://www.instagram.com/lionar_stormrage/?hl=es-la" target="_blank">
+                    <span class="fa-stack fa-sm" style="font-size: 1.5em">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                    </span>
+					</a>
+				</div>
 			</div>
 		</div>
+
+		<div class="d-lg-none"> {{-- se muestra en pantallas md- y mobile --}}
+			<div class="row d-flex justify-content-center container">
+				<a href="https://twitter.com/Lionar_St" target="_blank">
+		            <span class="fa-stack fa-sm">
+		                <i class="fas fa-circle fa-stack-2x"></i>
+		                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+		            </span>
+				</a>
+				<a href="https://www.facebook.com/L%C3%A1grimas-Bajo-Tierra-I-Iluminados-Por-La-Oscuridad-258476418344566/"
+				   target="_blank">
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                    </span>
+				</a>
+				<a href="https://www.instagram.com/lionar_stormrage/?hl=es-la" target="_blank">
+                    <span class="fa-stack fa-sm">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                    </span>
+				</a>
+			</div>
+
+			<a href="https://www.wattpad.com/user/LionarStormrage" target="_blank" style="text-decoration: none"
+			   class="nunito font-weight-bold">
+				<img src="{{ asset('img/wattpad2.png') }}" alt="wattpad" style="width: 6em;"> LionarStormrage
+			</a>
+			<br>
+			<a class="twitter-follow-button" data-show-count='false' href="https://twitter.com/Lionar_St">Seguir
+				@Lionar_St</a>
+			<div class="">
+			</div>
+			<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FLagrimasBajoTierra%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId=2320686861534804"
+			        style="border:none; overflow:hidden; width:100%; height:100px;"
+			        scrolling="no"
+			        frameborder="0"
+			        allowTransparency="true"
+			        allow="encrypted-media"
+			>
+			</iframe>
+		</div> {{--d-lg-none--}}
+
+	</div>
 	<!-- Copyright -->
-		<p class="text-center nunito" style="font-size: .7em">Copyright © 2019</p>
-{{--</footer>--}}
-<!-- Footer -->
+	<p class="text-center nunito" style="font-size: .7em">Copyright © 2019 | Sitio desarrollado por <a
+				href="https://www.linkedin.com/in/AlanCasal/" target="_blank"
+				style="text-decoration: none; font-size: 1em"><strong>Alan Casal</strong></a></p>
+</footer>

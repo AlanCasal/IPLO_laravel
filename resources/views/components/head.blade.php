@@ -30,6 +30,5 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
 
-    <title>Lágrimas Bajo Tierra I - Iluminados por la Oscuridad</title>
 </head>
 <body>

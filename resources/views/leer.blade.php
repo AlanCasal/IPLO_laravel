@@ -13,39 +13,29 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-10 col-md-10 mx-auto">
-					<div class="post-heading">
-						<div class="row"> <!-- Libro -->
-							<div> <!-- Comentarios -->
-								<center>
-
-									<p style="text-shadow: 2px 2px 5px black; font-size: 1.2em" class="nunito">
-										Estás a punto de embarcarte en la más oscura y apasionante historia que hayas
-										leído jamás, y los años, las horas de sueño, las lágrimas y el sacrificio
-										invertidos en mis palabras son la prueba fehaciente de ello.
-										Si descubres que lo que digo es cierto, puedes seguir el proceso de esta
-										historia en su <a
-												href="https://www.facebook.com/L%C3%A1grimas-Bajo-Tierra-I-Iluminados-Por-La-Oscuridad-258476418344566/"
-												class="text-light" target="_blank">página oficial en Facebook</a> ;
-										también puedes seguirme en <a
-												href="https://www.instagram.com/lionar_stormrage/?hl=es-la"
-												class="text-light" target="_blank">Instagram</a> donde, además de
-										enterarte de las últimas novedades, también tendrás la oportunidad de leer los
-										microrrelatos que en varias oportunidades iré subiendo de forma exclusiva en esa
-										plataforma. Y por medio de un mensaje privado tendrás la oportunidad de
-										continuar leyendo el capítulo 3 (y si estoy de buenas, también el capítulo 4) de
-										la misma manera que lo harás aquí: gratis =).
-										Sin más que decir, te deseo una deleitosa lectura, y gracias con el corazón por
-										dedicarme lo más valioso y sagrado en esta vida: tu tiempo.
-									<p class="font-italic text-right" style="font-size: 1.2em">Lionar Stormrage.</p>
-									</p>
-								</center>
-								{{-- <ul>
-									<li>Cursiva utilizada para describir recuerdos, pensamientos, alucinaciones y palabras entre comillas.</li>
-									<li>Idiomas varios, de momento aclarados entre paréntesis.</li>
-
-									<p class="text-center">Que lo disfruten. =)</p>
-								</ul> --}}
-							</div>
+					<div class="site-heading" style="text-shadow: 2px 2px 5px black">
+						<div> <!-- Comentarios -->
+							<center>
+								<p style="text-shadow: 2px 2px 5px black; font-size: 1.2em" class="nunito">
+									Estás a punto de embarcarte en la más oscura y apasionante historia que hayas
+									leído jamás, y los años, las horas de sueño, las lágrimas y el sacrificio
+									invertidos en mis palabras son la prueba fehaciente de ello.
+									Si descubres que lo que digo es cierto, puedes seguir el proceso de esta
+									historia en su <a
+											href="https://www.facebook.com/L%C3%A1grimas-Bajo-Tierra-I-Iluminados-Por-La-Oscuridad-258476418344566/"
+											class="text-light" target="_blank"><strong>página oficial en Facebook</strong></a> ;
+									también puedes seguirme en <a
+											href="https://www.instagram.com/lionar_stormrage/?hl=es-la"
+											class="text-light" target="_blank"><strong>Instagram</strong></a> donde, además de
+									enterarte de las últimas novedades, también tendrás la oportunidad de leer los
+									microrrelatos que en varias oportunidades iré subiendo de forma exclusiva en esa
+									plataforma. Y por medio de un mensaje privado tendrás la oportunidad de
+									continuar leyendo el capítulo 3 (y si estoy de buenas, también el capítulo 4) de
+									la misma manera que lo harás aquí: gratis =).
+									Sin más que decir, te deseo una deleitosa lectura, y gracias con el corazón por
+									dedicarme lo más valioso y sagrado en esta vida: tu tiempo.</p>
+								<p class="font-italic text-right" style="font-size: 1.2em">Lionar Stormrage.</p>
+							</center>
 						</div>
 					</div>
 				</div>
@@ -55,24 +45,13 @@
 
 	<!-- Main Content -->
 
-	{{-- <div class="container"> --}}
 	<center>
-		<div class="col-lg-8 col-md-10 mx-auto">
-			{{-- <div class="row"> --}}
-			<div class="col-md-6">
-				<img class="img-fluid border border-white" src="{{ asset('img/coverart-book.jpg?1') }}"
-				     style="width: 80%">
+		<div class="col-lg-3 col-md-6 mb-4">
+			<div class="card border border border-dark shadow p3">
+				<img class="card-img-top" src="{{asset('img/coverart-book-sm.jpg?1')}}" alt="">
 			</div>
-			{{-- <div class="col-md-6"> <!-- Comentarios -->
-				Querido/a lector/a, te agradezco de todo corazón por haber invertido una parte de tu valioso tiempo en mis palabras.
-				<p>Si te gustó lo que leíste, te pido humildemente que me regales un “me gusta” y lo compartas en tu red social predilecta; con esto me ayudas enormemente no sólo a conseguir más lectores, sino a achicar aquella larga espera en que pueda cumplir el sueño de ver este trabajo impreso en papel.</p>
-				<p>¡Gracias, de todo corazón!</p>
-				<p class="font-italic text-right text-muted">Lionar Stormrage.</p>
-			</div> --}}
-			{{-- </div> --}}
 		</div>
 	</center>
-	{{-- </div> --}}
 
 	<br/>
 	<hr/>
@@ -87,8 +66,8 @@
 			</h3>
 
 			<span class="nunito">
-                        La siguiente obra contiene escenas de violencia explícita, sexo, lenguaje vulgar, alusión a las drogas, violación y canibalismo entre otros temas de oscura índole. Se recomienda discreción en su lectura.
-                    </span>
+                La siguiente obra contiene escenas de violencia explícita, sexo, lenguaje vulgar, alusión a las drogas, violación y canibalismo entre otros temas de oscura índole. Se recomienda discreción en su lectura.
+            </span>
 
 			<br/>
 			<br/>
@@ -100,7 +79,7 @@
 
 		<br/>
 
-		<div class="row justify-content-center text-center"> <!-- cards -->
+		<div class="row justify-content-center text-center nunito"> <!-- cards -->
 
 			<div class="col-lg-3 col-md-6 mb-4">
 				<div class="card border border border-dark shadow p3">
