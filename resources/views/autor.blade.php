@@ -27,7 +27,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-md-10 mx-auto indend">
-					<div class="nunito">
+					<div class="lato">
 						<p>Es difícil resumir una historia en pocas palabras, aunque más difícil resulta hablar de uno
 							mismo.</p>
 						<p>Simplemente te diré que la escritura es mi pasión, una carrera que vengo siguiendo con esta

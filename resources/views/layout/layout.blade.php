@@ -11,9 +11,13 @@
 
     @include('components.navbar')
 
-	@yield('content')
+	<section>
+		@yield('content')
+	</section>
 
-	@include('components.footer')
+	<section style="padding-top: 100px; background-color: rgba(0,0,0,.05)">
+		@include('components.footer')
+	</section>
 
 	@include('components.scripts')
 </body>

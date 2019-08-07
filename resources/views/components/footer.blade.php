@@ -5,7 +5,7 @@
 			<div class="d-flex justify-content-around align-items-center">
 				<div class="">
 					<a href="https://www.wattpad.com/user/LionarStormrage" target="_blank" style="text-decoration: none"
-					   class="nunito font-weight-bold">
+					   class="lato font-weight-bold">
 						<img src="{{ asset('img/wattpad2.png') }}" alt="wattpad" style="width: 6em;"> LionarStormrage
 					</a>
 					<br>
@@ -71,7 +71,7 @@
 			</div>
 
 			<a href="https://www.wattpad.com/user/LionarStormrage" target="_blank" style="text-decoration: none"
-			   class="nunito font-weight-bold">
+			   class="lato font-weight-bold">
 				<img src="{{ asset('img/wattpad2.png') }}" alt="wattpad" style="width: 6em;"> LionarStormrage
 			</a>
 			<br>
@@ -91,7 +91,7 @@
 
 	</div>
 	<!-- Copyright -->
-	<p class="text-center nunito" style="font-size: .7em">Copyright © 2019 | Sitio desarrollado por <a
+	<p class="text-center lato" style="font-size: .7em">Copyright © 2019 | Sitio desarrollado por <a
 				href="https://www.linkedin.com/in/AlanCasal/" target="_blank"
 				style="text-decoration: none; font-size: 1em"><strong>Alan Casal</strong></a></p>
 </footer>

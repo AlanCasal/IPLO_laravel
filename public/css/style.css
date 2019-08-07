@@ -1,12 +1,7 @@
 /************************* Parallax *********************************/
 
 #header {
-    /*min-height: 50vh;*/
-    /*position: relative;*/
-    /*background-color: unset;*/
     background-image: url('../img/header.jpg');
-    /*background-position: center 0;*/
-    /*background-size: cover;*/
 }
 
 /**********************************************************/
@@ -24,7 +19,9 @@ span.romano {
 }
 
 .advertencia {
-    color: #ff2621 ;
+    color: #ff4d3c;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px black;
 }
 nav, .post-heading, .site-heading {
     text-shadow: 2px 2px 5px black ;
@@ -45,7 +42,6 @@ nav {
     text-shadow: 1px 1px 3px black ;
 }*/
 
-.nunito, .leer, .card {
-    font-family: 'Nunito', sans-serif;
+.lato, .leer, .card {
+    font-family: 'Lato', sans-serif;
 }
-
